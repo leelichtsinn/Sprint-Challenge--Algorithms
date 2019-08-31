@@ -2,8 +2,12 @@
 
 ## Exercise I
 
-a)
-
+a) O(n^2)
+```python
+a)  a = 0 <-- O(n)
+    while (a < n * n * n):
+      a = a + n * n <-- O(n^2)
+```
 
 b)
 
@@ -11,5 +15,3 @@ b)
 c)
 
 ## Exercise II
-
-
