@@ -14,11 +14,18 @@ b) O(n^2)
 b)  sum = 0 <-- O(1) constant
     for i in range(n): <-- O(1) linear search
       j = 1 <-- O(1)
-      while j < n: <--
+      while j < n:
         j *= 2 <-- O(n^2)
         sum += 1
 ```
 
 c)
+```python
+c)  def bunnyEars(bunnies):
+      if bunnies == 0:
+        return 0
+
+      return 2 + bunnyEars(bunnies-1)
+```
 
 ## Exercise II
