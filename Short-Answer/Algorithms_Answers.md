@@ -13,7 +13,7 @@ b) O(n^2)
 ```python
 b)  sum = 0 <-- O(1) constant
     for i in range(n): <-- O(1) linear search
-      j = 1 <-- O(1)
+      j = 1 <-- O(1) constant
       while j < n:
         j *= 2 <-- O(n^2)
         sum += 1
@@ -29,3 +29,10 @@ c)  def bunnyEars(bunnies):
 ```
 
 ## Exercise II
+
+highest_floor(n-story)
+  low = 0
+  high = n-story - 1
+  while (low <= high)
+    n-story_mid = (n-story_low + n-story_high) / 2
+    if (n-story[])
