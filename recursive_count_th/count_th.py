@@ -8,7 +8,7 @@ def count_th(word):
     if not word:
         return count
     elif word[0] == 't' and word[1] == 'h':
-        count += 1
-        return count_th(word[2:])
+
+        return count += 1, count_th(word[1:])
     else:
-        return count_th(word[2:])
+        return count_th(word[1:])
