@@ -102,25 +102,49 @@ class SortingRobot:
         # swap_item
         # can_move_right or can_move_left
         # move_right or move_left
-        while self.can_move_right() is True:
-        # if self._position > len(self._list) - 1:
-            if self.compare_item() is None:
-                self.move_right()
-            elif self.compare_item() is -1:
-                self.move_right()
-            elif self.compare_item() is 1:
-                self.swap_item()
-                self.move_right()
-            # self.compare_item()
-            # self.swap_item()
-            # self.can_move_right()
-            # self.move_right()
+        # while self.can_move_right() is True:
+        # # if self._position > len(self._list) - 1:
+        #     # print(self._item)
+        #     if self.compare_item() is None:
+        #         # print(self._item)
+        #         self.swap_item()
+        #         # print(self._item)
+        #         self.move_right()
+        #     elif self.compare_item() is 0:
+        #         # print(self._item)
+        #         self.move_right()
+        #     elif self.compare_item() is 1:
+        #         # print(self._item)
+        #         self.move_right()
+        #     elif self.compare_item() is -1:
+        #         # print(self._item)
+        #         self.swap_item()
+        #         # print(self._item)
+        #         self.move_right()
+            # else:
+            #     while self.can_move_left() is True:
+            #         if self.compare_item() is 0:
+            #             self.move_left()
+            #         elif self.compare_item() is
         # elif self._position :
         #     self.compare_item()
         #     self.swap_item()
         #     self.can_move_left()
         #     self.move_left()
-
+        # if self.can_move_right() is True:
+        print("===============================")
+        while self.can_move_right() is True:
+            self.move_right()
+            # if self.compare_item() is None:
+            #     self.swap_item()
+            #     self.move_right()
+            if self.compare_item() is 0:
+                self.move_right()
+            elif self.compare_item() is 1:
+                self.move_right()
+            elif self.compare_item() is -1:
+                self.swap_item()
+                self.move_right()
 
 
 if __name__ == "__main__":
